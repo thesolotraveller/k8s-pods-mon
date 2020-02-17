@@ -11,7 +11,7 @@ function createWindow () {
   })
 
   // and load localhost url of react app
-  win.loadURL('http://localhost:32767');
+  win.loadURL('http://localhost:3000');
 }
 
 app.whenReady().then(createWindow) 

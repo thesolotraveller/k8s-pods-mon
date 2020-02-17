@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import {Metrics} from './app';
 
 ReactDOM.render(
-  <h1>Hello World</h1>,
+  <Metrics />,
   document.getElementById("root")
 );

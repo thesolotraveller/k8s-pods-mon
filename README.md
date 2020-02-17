@@ -1,15 +1,12 @@
 Contents
 --------
 
-A hello world react electron app code in `src`
-Electron window initiator file -> `index.js`
-Kubernetes deployment file -> `k8-deployment.yaml`
-Docker files used for pushing to dockerise -> `Dockerfile`
+This is an electron supported desktop application
+which monitors lists down the cpu and memory stats
+for all the pods under all the namespaces.
 
-Commands:
+Execute the `startup.sh` bash script to start the application
+to report start for you local kubernetes cluster
 
-On a running kubernetes kluster with metrics server enabled execute,
-`kubectl apply -f k8-deployment.yaml`
-
-This will create a pod for the client app and navigate to `127.0.0.1:32767` or `localhost:32767`
-on your local machine to see it working
+Server runs at port `2999`
+Client runs at port `3000`
